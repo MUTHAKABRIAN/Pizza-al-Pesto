@@ -94,7 +94,7 @@
                     Go ahead and enjoy the All New Pizza-@l-Pesto experience! </p>
                 </div>
             </div>
-            
+
             <h1>Menu</h1>
 <div class="container">
             
@@ -167,22 +167,62 @@
             <div class="row mt-4 mb-4">
                 <div class="col-md-8 offset-md-2">
                     <div class="card">
-                        <h4 class="card-header white-text purple">Subscribe to us</h4>                        
+                        <h4 class="card-header white-text purple">place in your order: </h4>                        
                         <div class="card-body">
-                            <form>
+                            <form class="newInputs">
                                 <p class="h6 grey-text">Stay updated and get the latest 
                                     information about all our offers and discounts right
                                     into your inbox.</p>
                                      
                                 <div class="md-form">
-                                    <input type="text" id="fname" class="form-control"/>
-                                    <label for="fname">Your full name</label>
+                                    <p>Pizza crust</p>
+                            <select id="uno">
+                                <option value="none"></option>
+                                <option value="Neapolitan Pizza">Neapolitan Pizza</option>
+                                <option value="New York-Style Pizza">New York-Style Pizza</option>
+                                <option value="St. Louis Pizza">St. Louis Pizza</option>
+                                <option value="Stuffed">Stuffed</option>
+                                <option value="Deep Dish Pizza">Deep Dish Pizza</option>
+                                <option value="Sicilian Pizza">Sicilian Pizza</option>
+                            </select>
                                 </div>
                                  
                                 <div class="md-form">
-                                    <input type="email" id="email" class="form-control"/>
-                                    <label for="email">Your email address</label>
-                                </div>
+                                    <p>Pizza size</p>
+                            <select id="due">
+                                <option value="none"></option>
+                                <option value="Small">Small</option>
+                                <option value="Medium">Medium</option>
+                                <option value="Large">Large</option>
+                            </select>
+                            <div class="md-form">
+                                <input type="text" id="tre" placeholder="Number"><br><br>
+                                <p>Toppings</p>
+                            <select id="quatro">
+                                <option></option>
+                                <option value="Simple Vegetarian">Simple Vegetarian </option>
+                                <option value="Special Vegetarian">Special Vegetarian</option>
+                                <option value="Beef">Beef</option>
+                                <option value="Pepperoni">Pepperoni</option>
+                            </select>
+                            <button type="submit" id="submit"> ADD</button>
+
+                            </div>
+                            <div class="md-form">
+                                <h3>Pizza Delivery</h3>
+                                <p>Do you want your pizza to be delivered? </p>
+                                <form>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="delivery1"
+                                            value="Yes">
+                                        <label class="form-check-label" for="inlineRadio1">Yes</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="delivery2"
+                                            value="No">
+                                        <label class="form-check-label" for="inlineRadio1">No</label>
+                            </div>
+
                                  
                                 <div class="d-flex justify-content-around">
                                     <input type="submit"
