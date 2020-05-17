@@ -116,25 +116,7 @@ $(document).ready(function(){
             var newTotal= newPrice*Numbers;
         }else if((pizzaCrust==='Stuffed')&&(pizzaSize==='Large')){
             newPrice=2100;
-            var newTotal= newPrice*Numbers;
-        }else if((pizzaCrust==='Deep Dish Pizza')&&(pizzaSize==='Small')){
-            newPrice=800;
-            var newTotal= newPrice*Numbers;
-        }else if((pizzaCrust==='Deep Dish Pizza')&&(pizzaSize==='Medium')){
-            newPrice=1600;
-            var newTotal= newPrice*Numbers;
-        }else if((pizzaCrust==='Deep Dish Pizza')&&(pizzaSize==='Large')){
-            newPrice=2400;
-            var newTotal= newPrice*Numbers;
-        }else if((pizzaCrust==='Sicilian Pizza')&&(pizzaSize==='Small')){
-            newPrice=600;
-            var newTotal= newPrice*Numbers;
-        }else if((pizzaCrust==='Sicilian Pizza')&&(pizzaSize==='Medium')){
-            newPrice=1200;
-            var newTotal= newPrice*Numbers;
-        }else if((pizzaCrust==='Sicilian Pizza')&&(pizzaSize==='Large')){
-            newPrice=1800;
-            var newTotal= newPrice*Numbers;
+            
         }else{
             alert("Input not found!! please try again.")
         }
