@@ -18,6 +18,7 @@
    
   .page-header .navbar-toggler {
     border-color: var(--white); 
+    
   }
    
   @media screen and (max-width: 991px) {
@@ -48,18 +49,7 @@
     bottom: 0;
     left: 0;
     background: linear-gradient(
-      rgba(0, 0, 0, 0.5) 0, <div class="col-md-3">
-      <div class="card">
-      <h4 style="margin-left:10%">Pepperoni</h4>
-      <ol>
-          <li>Parmesan cheese </li>
-          <li>Tomato sauce</li>
-          <li>Red and white onions</li>
-          <li>Red,green and red pepper</li>
-          <li>Pepperoni</li>
-      </0l>
-  </div>
-      </div>
+      rgba(0, 0, 0, 0.5) 0, 
       rgba(0, 0, 0, 0.3) 50%,
       rgba(0, 0, 0, 0.1) 100%
     );
@@ -88,4 +78,5 @@
   }
   .nav-link{
       color:rgb(231, 5, 137);
+      align-items: center;
   }
