@@ -56,15 +56,7 @@ $(".page-header .nav-link, .navbar-brand").on("click", function(e) {
     //     $(".description6").hide();
     // });
 
-    // toggle
-//     $(".img1").click(function() {
-//         $(".description1").show(100);
-//         $(this).hide();
-//       });
-//       $(".description1").click(function() {
-//         $(".img1").show(500);
-//         $(this).hide();
-//       });
+ 
 
  });
 
